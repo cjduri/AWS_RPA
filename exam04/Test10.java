@@ -5,7 +5,7 @@ public class Test10 {
         Scanner stdIn = new Scanner(System.in);
         System.out.print("정숫값:");
         int n = stdIn.nextInt();
-        int count = 0;
+        int count = 0; // git remote update
         for (int i = 1; i <= n; i++)
             if (n % i == 0) {
                 System.out.print(i + " ");
